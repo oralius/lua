@@ -9,8 +9,8 @@ serp = require 'serpent'.block
 URL = (loadfile "./libs/url.lua")()
 day = 86400
 botname = redis:get('bot:name') or 'nil' -- Bot Name
-cli_id = 501937504 -- Put Your Cli Bot ID
-api_id = 314178487 -- Put Your Api Bot ID
+cli_id = 496230573 -- Put Your Cli Bot ID
+api_id = 384178886 -- Put Your Api Bot ID
 bot_username = redis:get('bot:username') or '@nil' -- Bot Username
 not_fwd_user = 'Please Reply on a forwarded Message from a user!'
 not_reply = 'Please Reply on a message!'
@@ -19,7 +19,7 @@ usm_not_found = 'Username Not Found.'
 you_not_mod = 'For Moderators!'
 you_not_owner = 'For Owner!'
 have_acces = 'User is Owner/Moderator/Sudo\nFirst,Demote user!'
-sudo = 282958812 -- SUDO Orginal
+sudo = 108363478 -- SUDO Orginal
 
 
 function sleep(time)
